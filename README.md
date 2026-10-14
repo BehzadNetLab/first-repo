@@ -19,9 +19,8 @@ The network uses VLANs to separate devices into different logical networks.
 
 | VLAN | Purpose |
 |---|---|
-| VLAN 10 | Department 1 |
-| VLAN 20 | Department 2 |
-| VLAN 30 | Department 3 |
+| VLAN 10 | STAFF |
+| VLAN 20 | ADMIN |
 
 Each VLAN has its own subnet. The router uses subinterfaces to route traffic between VLANs.
 
