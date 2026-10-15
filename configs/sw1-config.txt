@@ -12,11 +12,13 @@ vlan 20
 interface GigabitEthernet0/1
  switchport mode trunk
  switchport trunk allowed vlan 10,20
+ switchport nonegotiate
  no shutdown
 
 interface range FastEthernet0/3-4
  switchport mode trunk
  switchport trunk allowed vlan 10,20
+ switchport nonegotiate
  no shutdown
 
 end
