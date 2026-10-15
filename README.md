@@ -129,3 +129,13 @@ The following commands can be used to verify the Router-on-a-Stick configuration
 - Router subinterfaces provide the default gateways for both VLANs.
 - Devices in different VLANs can communicate when the IP addressing and configurations are correct.
 
+## Skills Demonstrated
+
+- VLAN creation and configuration
+- IEEE 802.1Q trunking
+- Router subinterface configuration
+- Inter-VLAN routing
+- IPv4 addressing and subnetting
+- Cisco IOS command-line interface (CLI)
+- Network troubleshooting and connectivity testing
+
