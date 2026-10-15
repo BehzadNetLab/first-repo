@@ -110,3 +110,23 @@ show vlan brief
 show ip route
 ping 10.0.18.45
 ```
+## Testing and Verification
+
+The following commands can be used to verify the Router-on-a-Stick configuration.
+
+| Command | Purpose |
+|---|---|
+| `show ip interface brief` | Checks router interface status and IP addresses |
+| `show interfaces trunk` | Verifies trunk links on the switches |
+| `show vlan brief` | Displays VLANs and access-port assignments |
+| `show ip route` | Checks the router's routing table |
+| `ping 10.0.18.45` | Tests connectivity to the destination IP address |
+
+### Expected Results
+
+- VLAN 10 and VLAN 20 are configured on the switches.
+- Trunk links carry traffic for the required VLANs.
+- Router subinterfaces provide the default gateways for both VLANs.
+- Devices in different VLANs can communicate when the IP addressing and configurations are correct.
+
+*Note: Actual results should be confirmed in GNS3 before describing the tests as successful.*
