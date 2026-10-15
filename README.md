@@ -1,5 +1,5 @@
 # first-repo
-router-on-a-stick
+
 # Router-on-a-Stick Lab
 
 A networking lab built in [PingMyNetwork Sandbox](https://pingmynetwork.com/sandbox)  to practice VLAN configuration, IEEE 802.1Q trunking, and inter-VLAN routing using a Cisco router and two switches.
