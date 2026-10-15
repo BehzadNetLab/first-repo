@@ -1,0 +1,22 @@
+! Router-on-a-Stick - SW2 Configuration
+
+enable
+configure terminal
+
+vlan 10
+ name STAFF-10
+
+vlan 20
+ name ADMIN-20
+
+interface FastEthernet0/2
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+
+interface FastEthernet0/3
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+
+end
