@@ -18,10 +18,9 @@ This project demonstrates how devices in different VLANs can communicate through
 - Practice Cisco IOS commands and troubleshooting.
 
 ## 2. Network Topology
+![Router-on-a-Stick Network Topology](topology/router-on-a-stick-topology.png)
 
 The lab contains the following network devices and logical networks:
-
-![Router-on-a-Stick Network Topology]\(topology/router-on-a-stick-topology.png)
 
 - **R1:** Routes traffic between VLANs using router subinterfaces.
 - **SW1:** Connects to the router and forwards VLAN traffic.
