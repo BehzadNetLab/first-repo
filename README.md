@@ -129,4 +129,3 @@ The following commands can be used to verify the Router-on-a-Stick configuration
 - Router subinterfaces provide the default gateways for both VLANs.
 - Devices in different VLANs can communicate when the IP addressing and configurations are correct.
 
-*Note: Actual results should be confirmed in GNS3 before describing the tests as successful.*
